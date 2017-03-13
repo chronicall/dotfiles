@@ -30,11 +30,12 @@
 *color7:        #777777
 *color15:       #777777
 
-!-----------------------
+!----------------------
 ! urxvt
 
-!URxvt*font:             xft:terminus:pixelsize=12
-!URxvt*font:             -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
-URxvt*scrollBar:        false
-URxvt*scrollBar_right:  true
-URxvt*scrollColor:      #000000
+URxvt*scrollBar:            false
+URxvt*scrollColor:          #000000
+URxvt*saveLines:            100000
+URxvt*scrollTtyOutput:      false
+URxvt*scrollWithBuffer:     true
+URxvt*scrollTtyKeypress:    true

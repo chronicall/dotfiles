@@ -1,0 +1,36 @@
+# Custom aliases
+
+# power options
+alias poff='sudo shutdown -P now'
+alias restart='sudo shutdown -r now'
+
+# apt-get
+alias aptg='sudo apt-get'
+alias apti='sudo apt-get install'
+alias aptr='sudo apt-get remove'
+alias apts='sudo apt-cache search'
+alias aptu='sudo apt-get update && sudo apt-get upgrade'
+
+# xrandr
+alias screl='xrandr --output LVDS1 --auto --output VGA1 --auto --left-of LVDS1'
+alias screr='xrandr --output LVDS1 --auto --output VGA1 --auto --right-of LVDS1'
+alias screa='xrandr --output LVDS1 --auto --output VGA1 --auto --above LVDS1'
+alias scre='xrandr --auto'
+
+# work
+alias vpn='sudo vpnc azazo'
+alias dvpn='sudo vpnc-disconnect'
+alias sc='script/coredata'
+alias sd='script/django'
+alias aws-test='sudo openvpn --config ~/.aws-vpn/test.conf --ca ~/.aws-vpn/test_ca.crt'
+alias aws-prod='sudo openvpn --config ~/.aws-vpn/prod.conf --ca ~/.aws-vpn/prod_ca.crt'
+
+# git
+alias gadd='git add'
+alias gaddp='git add -p'
+alias gbdel='git branch -d'
+alias gbranch='git branch'
+alias gcommit='git commit -v'
+alias gcheckout='git checkout'
+alias gstash='git stash'
+alias gstatus='git status'

@@ -1,5 +1,6 @@
+execute pathogen#infect()
 set nocompatible
-syntax enable
+syntax on
 set showcmd
 filetype plugin indent on
 set number
@@ -18,8 +19,4 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-" Solarized colourscheme
-"set background=dark
-"colorscheme solarized
-
-execute pathogen#infect()
+let NERDTreeIgnore=['\.pyc$','\~$']
